@@ -1,0 +1,16 @@
+git init: initiate git in local folder 
+git remote -v
+git remote add origin url
+git push -u origin main 
+
+
+git upstream 
+
+1. create a repo 
+2. git clone 
+3. git remote add upstream url 
+4. git remote -v
+5. git pull upstream primary 
+6. git push origin primary #if you don't specify the remote, default to the origin repo 
+7. if scared to pushing to upstream, disable pushing to upstream using 
+git remote set-url --push upstream PUSH_DISABLED 
